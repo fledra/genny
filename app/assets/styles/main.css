@@ -6,4 +6,7 @@
 @theme {
   --font-sans: 'Poppins', system-ui, sans-serif;
   --font-mono: 'Fira Mono', monospace;
+
+  --ui-container: 64dvw;
+  --ui-header-height: --spacing(20);
 }

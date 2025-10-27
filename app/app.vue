@@ -2,9 +2,12 @@
   <UApp>
     <NuxtRouteAnnouncer />
 
-    <UContainer>
-      <Header class="mb-4" />
-      <NuxtPage />
-    </UContainer>
+    <Header />
+
+    <UMain>
+      <UContainer>
+        <NuxtPage />
+      </UContainer>
+    </UMain>
   </UApp>
 </template>
