@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@import './colors';
+
+@theme {
+  --font-sans: 'Poppins', system-ui, sans-serif;
+  --font-mono: 'Fira Mono', monospace;
+}
