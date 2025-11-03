@@ -3,6 +3,8 @@
 
 @import './colors';
 
+@source inline('grid-cols-{{1..12}}');
+
 @theme {
   --font-sans: 'Poppins', system-ui, sans-serif;
   --font-mono: 'Fira Mono', monospace;
