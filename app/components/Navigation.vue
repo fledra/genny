@@ -29,11 +29,11 @@ const items: NavigationMenuItem[] = [
     label: 'Modules',
     type: 'label',
   },
-  ...getRoutesOf('modules/'),
+  ...getRoutesOf('module/'),
   {
     label: 'Primitives',
     type: 'label',
   },
-  ...getRoutesOf('primitives/'),
+  ...getRoutesOf('primitive/'),
 ];
 </script>
